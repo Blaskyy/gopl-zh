@@ -1,71 +1,71 @@
-# 術語翻譯
+# 术语翻译
 
-單詞              | 譯法              | 詞性   | 類别 | 備註
+单词              | 译法              | 词性   | 类别 | 备注
 ----------------- | ----------------- | ------ | ---- | ----
 approximation     | 近似[值]/逼近式   | n      |      |
-argument          | 實參              | n      |      |
-assignment        | 賦值              | n      |      |
-block             | 塊/阻塞           | n      |      | “阻塞”僅用於信道
-body              | 執行體            | n      |      |
-buffer            | 緩衝區            | n      |      |
-cache             | 緩存              | n      |      |
-case              | 情況/寫法         | n      |      | 在用作大小寫時譯作“寫法”，因爲有些字母還有其它多種寫法
+argument          | 实参              | n      |      |
+assignment        | 赋值              | n      |      |
+block             | 块/阻塞           | n      |      | “阻塞”仅用于信道
+body              | 执行体            | n      |      |
+buffer            | 缓冲区            | n      |      |
+cache             | 缓存              | n      |      |
+case              | 情况/写法         | n      |      | 在用作大小写时译作“写法”，因为有些字母还有其它多种写法
 channel           | 信道              | n      |      |
 char/character    | 字符              | n      |      |
-code point        | 碼點              | n      |      |
-coefficient       | 繫數              | n      |      |
-commit            | 提交              | v      |      | 卽直接向repo提交代碼
+code point        | 码点              | n      |      |
+coefficient       | 系数              | n      |      |
+commit            | 提交              | v      |      | 即直接向repo提交代码
 compatibility     | 兼容性            | n/adj  |      |
-complex           | 複數              | n      |      |
+complex           | 复数              | n      |      |
 constant          | 常量              | n      |      |
-constructor       | 構造函數          | n      |      |
-convention        | 約定              | n      |      |
-defer             | 推遲              | v      |      |
-degree            | 階                | n      |      | 僅用於多項式
-distribute        | 分發              | v      |      |
-distribution      | 分發              | n      |      |
-embedding         | 內嵌              | n/v    |      | 用作類型，與“嵌入式”分開
-error             | 錯誤/誤差         | n      |      | “誤差”用於數學
+constructor       | 构造函数          | n      |      |
+convention        | 约定              | n      |      |
+defer             | 推迟              | v      |      |
+degree            | 阶                | n      |      | 仅用于多项式
+distribute        | 分发              | v      |      |
+distribution      | 分发              | n      |      |
+embedding         | 内嵌              | n/v    |      | 用作类型，与“嵌入式”分开
+error             | 错误/误差         | n      |      | “误差”用于数学
 evaluation        | 求值              | n      |      |
-even              | 偶(數)            | n/adj  |      |
-expression        | 表達式            | n      |      |
-flag              | 標誌              | n      |      |
-floating-point    | 浮點數            | n      |      |
+even              | 偶(数)            | n/adj  |      |
+expression        | 表达式            | n      |      |
+flag              | 标志              | n      |      |
+floating-point    | 浮点数            | n      |      |
 form              | 形式              | n      |      |
-function          | 函數              | n      |      |
-implementation    | 實現              | n      |      |
-integer           | 整數              | n      |      |
+function          | 函数              | n      |      |
+implementation    | 实现              | n      |      |
+integer           | 整数              | n      |      |
 introduction      | 引言              | n      |      |
-label             | 標籤              | n/v    |      |
-lock              | 鎖                | n/v    |      |
+label             | 标签              | n/v    |      |
+lock              | 锁                | n/v    |      |
 method            | 方法              | n      |      |
-mutex             | 互斥鎖            | n      |      |
-name space        | 命名空間          | n      |      |
-normalize         | 規范化            | v      |      |
-odd               | 奇(數)            | n/adj  |      |
+mutex             | 互斥锁            | n      |      |
+name space        | 命名空间          | n      |      |
+normalize         | 规范化            | v      |      |
+odd               | 奇(数)            | n/adj  |      |
 panic             |（保留）           | n/v    |      |
-parameter         | 形參              | n      |      |
-pending           | 待定/掛起         | adj    |      |
-polynomial        | 多項式            | n      |      |
-profile/profiling | 評估              | n/v    |      |
-race              | 競爭/競態         | n/v    |      |
-recover           | 恢複              | v      |      |
-reduction         | 換算              | n      |      |
+parameter         | 形参              | n      |      |
+pending           | 待定/挂起         | adj    |      |
+polynomial        | 多项式            | n      |      |
+profile/profiling | 评估              | n/v    |      |
+race              | 竞争/竞态         | n/v    |      |
+recover           | 恢复              | v      |      |
+reduction         | 换算              | n      |      |
 reference         | 引用              | n/v    |      |
-repository        | [源碼]倉庫/源碼庫 | n      |      |
-round             | 舍入              | v/adj  |      | 在數學中爲舍入
+repository        | [源码]仓库/源码库 | n      |      |
+round             | 舍入              | v/adj  |      | 在数学中为舍入
 rune              | 符文              | n      |      |
 scope             | 作用域            | n      |      |
-script            | 腳本/書寫[繫統]   | n      |      | 在Unicode中譯作“書寫[繫統]”
-source code       | 源碼/源代碼       | n      |      |
-statement         | 語句              | n      |      |
-stride            | 間距              | n      |      | 用作兩個碼點的間距。如從A(0x41)到a(0x61)的間距爲32(0x20)
-struct            | 結構體            | n      |      |
-submit            | 遞交              | v      |      | 指遞交至主代碼樹
-tag               | 標記              | n      |      | 多指struct tag，上下文隻與xml/html相關時仍作“標籤”
-token             | [詞法]標記        | n      |      |
-ulp               | 末尾單元          | n      |      | Unit in the Last Place 的縮寫
-universe block    | 全域塊            | n      |      |
-variable          | 變量              | n      |      |
+script            | 脚本/书写[系统]   | n      |      | 在Unicode中译作“书写[系统]”
+source code       | 源码/源代码       | n      |      |
+statement         | 语句              | n      |      |
+stride            | 间距              | n      |      | 用作两个码点的间距。如从A(0x41)到a(0x61)的间距为32(0x20)
+struct            | 结构体            | n      |      |
+submit            | 递交              | v      |      | 指递交至主代码树
+tag               | 标记              | n      |      | 多指struct tag，上下文只与xml/html相关时仍作“标签”
+token             | [词法]标记        | n      |      |
+ulp               | 末尾单元          | n      |      | Unit in the Last Place 的缩写
+universe block    | 全域块            | n      |      |
+variable          | 变量              | n      |      |
 
-説明: 如果對翻譯有更好的建議請 [創建ISSUE](https://github.com/golang-china/gopl-zh/issues/new) 參與討論。添加新詞請按字符串排序。
+说明: 如果对翻译有更好的建议请 [创建ISSUE](https://github.com/golang-china/gopl-zh/issues/new) 参与讨论。添加新词请按字符串排序。

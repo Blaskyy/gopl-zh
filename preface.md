@@ -1,46 +1,46 @@
-# 關於 [《Go聖經讀書筆記》](http://golang-china.github.io/gopl-zh)
+# 关于 [《Go圣经读书笔记》](http://golang-china.github.io/gopl-zh)
 
-作爲 [《The Go Programming Language》](http://gopl.io/) (中文名[《Go編程語言》](http://golang-china.github.io/gopl-zh)) 英文原版紙質圖書的購買者, [《Go聖經讀書筆記》](http://golang-china.github.io/gopl-zh) 是我們的 **讀書筆記** 和 **習題解答**, 僅供學習交流用.
+作为 [《The Go Programming Language》](http://gopl.io/) (中文名[《Go编程语言》](http://golang-china.github.io/gopl-zh)) 英文原版纸质图书的购买者, [《Go圣经读书笔记》](http://golang-china.github.io/gopl-zh) 是我们的 **读书笔记** 和 **习题解答**, 仅供学习交流用.
 
-- 此 **讀書筆記** 在線預覽: http://golang-china.github.io/gopl-zh
-- 此 **讀書筆記** 的源文件: http://github.com/golang-china/gopl-zh
-- 此 **讀書筆記** 項目進度: http://github.com/golang-china/gopl-zh/blob/master/progress.md
-- 此 **讀書筆記** 參與人員: http://github.com/golang-china/gopl-zh/blob/master/CONTRIBUTORS.md
-- 原版官網: http://gopl.io
+- 此 **读书笔记** 在线预览: http://golang-china.github.io/gopl-zh
+- 此 **读书笔记** 的源文件: http://github.com/golang-china/gopl-zh
+- 此 **读书笔记** 项目进度: http://github.com/golang-china/gopl-zh/blob/master/progress.md
+- 此 **读书笔记** 参与人员: http://github.com/golang-china/gopl-zh/blob/master/CONTRIBUTORS.md
+- 原版官网: http://gopl.io
 
 [![](cover_small.jpg)](https://github.com/golang-china/gopl-zh)
 
-**版權聲明:** <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+**版权声明:** <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="./images/by-nc-sa-4.0-88x31.png"></img></a>
 
-嚴禁任何商業行爲使用或引用該 **讀書筆記** 的全部或部分內容!
+严禁任何商业行为使用或引用该 **读书笔记** 的全部或部分内容!
 
-歡迎大家提供建議!
+欢迎大家提供建议!
 
 # 前言
 
-*“Go是一個開源的編程語言，它很容易構建簡單、可靠和高效的軟件。”（摘自Go語言官網：http://golang.org）*
+*“Go是一个开源的编程语言，它很容易构建简单、可靠和高效的软件。”（摘自Go语言官网：http://golang.org）*
 
-Go語言有Google的Robert Griesemer, Rob Pike, 和 Ken Thompson於2007年9月發起,
-然後在2009年的11月對外正式發布. 語言及其配套的工具的目標是具有表達力,
-高效的編譯和執行, 有效地編寫高效和健壯的程序.
+Go语言有Google的Robert Griesemer, Rob Pike, 和 Ken Thompson于2007年9月发起,
+然后在2009年的11月对外正式发布. 语言及其配套的工具的目标是具有表达力,
+高效的编译和执行, 有效地编写高效和健壮的程序.
 
-Go有着和C類似的外表, 和C一樣是專業程序員的工具, 用最小的代價穫得最大的效果.
-但是它不僅僅是一個更新的C. 它還從其他語言借鑒了很多好的想法, 同時避免了過度的複雜性.
-Go中和併發相關的特性是新的也是有效的, 同時對數據抽象和面向對象的支持也很靈活.
-同時還集成了自動垃圾收集用於管理內存.
+Go有着和C类似的外表, 和C一样是专业程序员的工具, 用最小的代价获得最大的效果.
+但是它不仅仅是一个更新的C. 它还从其他语言借鉴了很多好的想法, 同时避免了过度的复杂性.
+Go中和并发相关的特性是新的也是有效的, 同时对数据抽象和面向对象的支持也很灵活.
+同时还集成了自动垃圾收集用于管理内存.
 
-Go尤其適合編寫網絡服務相關基礎設施, 也適合開發一些工具和繫統軟件.
-但是Go確實是一個通用的編程語言, 它也可以用在圖形圖像驅動, 移動應用程序,
-和機器學習等領域.它已經成爲受歡迎的作爲無類似腳本語言的替代者:
-因爲Go編寫的程序通常比腳本語言運行的更快更安全, 很少會發生意外的類型錯誤.
+Go尤其适合编写网络服务相关基础设施, 也适合开发一些工具和系统软件.
+但是Go确实是一个通用的编程语言, 它也可以用在图形图像驱动, 移动应用程序,
+和机器学习等领域.它已经成为受欢迎的作为无类似脚本语言的替代者:
+因为Go编写的程序通常比脚本语言运行的更快更安全, 很少会发生意外的类型错误.
 
-Go是一個開源的項目, 因此可以免費穫編譯器/庫/配套工具的源碼.
-它的貢獻者來自一個活躍的全球社區. Go可以運行在類UNIX繫統上,
-比如Linux, FreeBSD, OpenBSD, Mac OSX, Plan9, 還有 Microsoft Windows.
-編寫的程序無需脩改就可以運行在這些環境.
+Go是一个开源的项目, 因此可以免费获编译器/库/配套工具的源码.
+它的贡献者来自一个活跃的全球社区. Go可以运行在类UNIX系统上,
+比如Linux, FreeBSD, OpenBSD, Mac OSX, Plan9, 还有 Microsoft Windows.
+编写的程序无需修改就可以运行在这些环境.
 
-本書是爲了幫助你開始已有效的方式使用Go, 充分利用語言的特性和標準庫去編寫清晰地道的Go程序.
+本书是为了帮助你开始已有效的方式使用Go, 充分利用语言的特性和标准库去编写清晰地道的Go程序.
 
 
